@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <script src="./dist/table-row-link.js" ></script>
+    <script>
+      window.onload = () => {
+        const table = new TableRowLink('#table')
+        table.run(0, true)
+      }
+    </script>
+  </head>
+  <body>
+    <!-- <script type="module" src="/src/index.js"></script> -->
+    <table id="table">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>名前</th>
+          <th>ウェブサイト</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="https://google.com">1</a></td>
+          <td><p>サンプル1</p></td>
+          <td><a href="https://example.com" target="_blank">example.com</a></td>
+        </tr>
+        <tr>
+          <td><button type="button">2</button></td>
+          <td>サンプル2</td>
+          <td><a href="https://example.org" target="_blank">example.org</a></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="3"></td>
+          <td>サンプル3</td>
+          <td><a href="https://example.net" target="_blank">example.net</a></td>
+        </tr>
+      </tbody>
+    </table>
+
+  </body>
+</html>

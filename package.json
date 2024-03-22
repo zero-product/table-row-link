@@ -1,0 +1,20 @@
+{
+  "name": "table-row-link",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node esbuild.config -f table-row-link",
+    "dev": "node esbuild.config -w -f table-row-link"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.2",
+    "esbuild-sass-plugin": "^3.2.0",
+    "fs-extra": "^11.2.0",
+    "sass": "^1.72.0",
+    "yargs": "^17.7.2"
+  }
+}
