@@ -33,7 +33,7 @@
   ```
 * ESM(module)  
   ```javascript
-  import TableRowLink from 'path/to/src/table-row-link.min.js'
+  import TableRowLink from 'path/to/src/index.js'
   ```
 
 
